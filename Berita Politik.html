@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DPR Sebut Menhut Raja Juli Kebagian Cuci Piring soal Kerusakan Hutan</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- AOS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f7f7f7;
+      line-height: 1.8;
+    }
+    .article-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+    }
+    .article-img {
+      width: 100%;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container py-4">
+    <a href="index.html" class="btn btn-secondary mb-3">&larr; Kembali ke Beranda</a>
+
+    <div class="article-box">
+
+      <!-- Judul Berita -->
+      <h1 class="fw-bold" data-aos="fade-up">DPR Sebut Menhut Raja Juli Kebagian Cuci Piring soal Kerusakan Hutan</h1>
+
+      <!-- Info Berita -->
+      <p class="text-muted mt-1 mb-3" data-aos="fade-up" data-aos-delay="100">
+        Ditulis oleh <strong>Dimas Pradipa</strong> • 5 Desember 2025 • Kategori: <strong>Politik</strong>
+      </p>
+
+      <!-- Gambar -->
+      <img src="gambar/menteri-kehutanan-menhut-ri-raja-juli-antoni-1764854101209_169.jpeg" alt="Gambar Berita" class="article-img mb-4" data-aos="zoom-in">
+
+      <!-- Isi Paragraf 1 -->
+      <p data-aos="fade-up" data-aos-delay="100">
+        Anggota Komisi IV DPR RI, Firman Soebagyo menegaskan, persoalan kerusakan hutan di Indonesia bukanlah masalah yang muncul dalam satu atau dua tahun terakhir. Politikus Golkar itu mengatakan kerusakan hutan merupakan akumulasi dari kebijakan dan praktik buruk yang berlangsung sejak era sebelumnya.
+        Firman menyampaikan dalam rapat kerja Komisi IV DPR bersama Menteri Kehutanan Raja Juli Antoni yang membahas bencana banjir dan longsor di beberapa daerah
+      </p>
+
+      <!-- Isi Paragraf 2 -->
+      <p data-aos="fade-up" data-aos-delay="200">
+        Dia menilai, Raja Juli Antoni, tidak bisa disalahkan secara sepihak atas kondisi kerusakan hutan yang kini menjadi sorotan publik. Firman mengingatkan, kerusakan ekologis terjadi jauh sebelum menteri yang menjabat saat ini mengemban tugasnya.
+        "Pak Menteri (Raja Juli Antoni) ini cuci piring, makanya saya bela. Makanya waktu diminta (Muhaimin Iskandar) tobat nasuha saya bela. Karena kejadian perusakan hutan ini, bukan satu tahun atau dua tahun. Setelah reformasi, hutan kita hancur," katanya di Gedung DPR, Jakarta, Kamis (4/12).
+      </p>
+      
+
+      <!-- Isi Paragraf 3 -->
+      <p data-aos="fade-up" data-aos-delay="300">
+        Ia menyoroti rentannya kondisi sejumlah kawasan di Indonesia. Firman bahkan mengaku takut ketika melintasi wilayah rawan longsor.
+        "Saya miris pak, jangankan yang di Sumatera, bahkan kami yang duduk di ruangan ini kadang-kadang takut waktu lewat Puncak takut ada tanah longsor, mau lewat ke mana takut ada jalan tiba-tiba putus seperti yang di Aceh," ujarnya.
+        Ia menyayangkan masih adanya aktivitas pengangkutan kayu di tengah bencana tersebut. Firman meminta Kemenhut menindak tegas perusahaan yang terlibat.
+        "Dalam situasi kondisi bencana sedemikian rupa masih ada yang mengangkut kayu, walaupun masih punya izin. Saya minta kepada pak menteri ditindak tegas. Kalau perlu dicabut izinnya karena mereka itu sense of crisis, itu pelecehan kepada negara. Pelecehan kepada rakyat yang ada di sana," katanya.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Tombol Scroll ke Atas -->
+  <button id="scrollTopBtn" class="btn btn-primary rounded-circle position-fixed" 
+          style="bottom: 20px; right: 20px; display:none; width:50px; height:50px;">
+    ↑
+  </button>
+
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <!-- JS Custom -->
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+
+    const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    window.onscroll = function () {
+      if (document.documentElement.scrollTop > 200) {
+        scrollTopBtn.style.display = "block";
+      } else {
+        scrollTopBtn.style.display = "none";
+      }
+    };
+
+    scrollTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+/* ===== Custom Style untuk DimasNews ===== */
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  nav form {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .card-body h5 {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+/* Dropdown agar lebih jelas di tema gelap */
+.navbar .dropdown-menu {
+  background-color: #222;
+  border: 1px solid #444;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: #fff;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #444;
+}
